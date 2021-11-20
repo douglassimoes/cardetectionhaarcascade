@@ -18,16 +18,6 @@ conda install opencv=3.4.2
 
 Is important to choose the right version of opencv, because if you choose another version it can ask for downgrading your python version and we don't want that. :)
 
-# Results
-
-After training and tweaking the parameters to better train my model these were the results:
-
-The model was able to detect many cars at once:
-![](docs/images/cars_detected.PNG)
-
-And also to detect it in motion:  
-![](docs/images/car_detected.gif)
-
 # How to use this code to detect other things
 
 If you just want to re-execute my application on your PC to see the results there is not much to say other than clone the repo install conda environment and packages and execute it. However if you want to know the steps I followed to be able to apply Haar Cascade Classifiers, to create your own code for detecting other stuff follow these directions:
@@ -82,3 +72,13 @@ I executed my application with the following parameters:
 ```
 opencv_traincascade.exe -data cascade/ -vec positive.vec -bg negative.txt -w 24 -h 24 -numPos 800 -numNeg 400 -numStages 12 -maxFalseAlarmRate 0.3 -minHitRate 0.999
 ```
+
+# Results
+
+After training and tweaking the parameters to better train my model these were the results:
+
+The model was able to detect many cars at once:
+![](docs/images/cars_detected.PNG)
+
+And also to detect it in motion:  
+![](docs/images/car_detected.gif)
