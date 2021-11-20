@@ -18,7 +18,17 @@ conda install opencv=3.4.2
 
 Is important to choose the right version of opencv, because if you choose another version it can ask for downgrading your python version and we don't want that. :)
 
-### How to use this code to detect other things
+# Results
+
+After training and tweaking the parameters to better train my model these were the results:
+
+The model was able to detect many cars at once:
+![](docs/images/cars_detected.PNG)
+
+And also to detect it in motion
+![](docs/images/car_detected.gif)
+
+# How to use this code to detect other things
 
 If you just want to re-execute my application on your PC to see the results there is not much to say other than clone the repo install conda environment and packages and execute it. However if you want to know the steps I followed to be able to apply Haar Cascade Classifiers, to create your own code for detecting other stuff follow these directions:
 
