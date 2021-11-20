@@ -25,7 +25,7 @@ After training and tweaking the parameters to better train my model these were t
 The model was able to detect many cars at once:
 ![](docs/images/cars_detected.PNG)
 
-And also to detect it in motion
+And also to detect it in motion:  
 ![](docs/images/car_detected.gif)
 
 # How to use this code to detect other things
